@@ -1,6 +1,14 @@
+/* COLORS
+#dee8f7 - light blue
+#9bb6de - in-between blue
+#6289c4 - dark blue
+#f7f4de - light yellow
+*/
+
+
 
 body {
-	/*background-color: #dee8f7;*/
+	background-color: #dee8f7;
 }
 
 .container {
