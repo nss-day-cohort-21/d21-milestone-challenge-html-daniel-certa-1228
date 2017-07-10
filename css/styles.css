@@ -1,0 +1,17 @@
+
+body {
+	/*background-color: #dee8f7;*/
+}
+
+.container {
+	max-width: 95%;
+	margin: 0 auto;
+}
+
+.hero {
+
+}
+
+#headshot {
+	max-width: 30%;
+}

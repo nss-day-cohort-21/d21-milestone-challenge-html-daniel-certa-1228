@@ -33,9 +33,9 @@ Create a page for your own personal branding that can be treated as the beginnin
 
 
 ### Content and Technical Requirements
-1. Title - make it meaningful.
-1. Header element `<h1>` - This is the main headline; include your name and what this page is.
-1. Photo
+1. DONE Title - make it meaningful. 
+1. DONE Header element `<h1>` - This is the main headline; include your name and what this page is.
+1. DONE Photo
 1. Section element containing your bio
 1. Section element with links to resources or sites you like
 1. Section element with two sections for future projects (placeholders)
