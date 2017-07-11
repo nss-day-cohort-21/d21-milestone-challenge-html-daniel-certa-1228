@@ -34,9 +34,9 @@ let blogDate = blogContent[i].date;
 let blogTime = blogContent[i].time;
 //build our blog entry structure
 // let blogCard;
-let blogCard = '<article class="blog-post"><h3 class="blog-post-title">' + blogTitle + '</h3>';
-blogCard += '<p class="blog-post-paragraph">' + blogCopy + '</p>';
-blogCard += '<section class="blog-post-footer"><p>Posted by ' + blogPoster + ' on ' + blogDate + ' at ' + blogTime + '.</p></section>';
+let blogCard = `<article class="blog-post"><h3 class="blog-post-title">${blogTitle}</h3>`;
+blogCard += `<p class="blog-post-paragraph">${blogCopy}></p>`;
+blogCard += `<section class="blog-post-footer"><p>Posted by ${blogPoster} on ${blogDate} at ${blogTime}.</p></section>`;
  
  console.log(blogCard)
 
