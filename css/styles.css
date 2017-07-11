@@ -17,7 +17,6 @@ h1 {
 }
 
 h1, h2, h3 {
-	/*font-family: 'Dosis', sans-serif;*/
 	color: #fff;
 	font-weight: normal;
 }
@@ -46,7 +45,6 @@ h2 {
 .bio-flex {
 	display: flex;
 	display: -webkit-flex;
-	/*flex-wrap: wrap;*/
 	justify-content: space-between;
 	align-items: flex-start;
 	background-color: rgba(174,189,56, .4);
@@ -54,9 +52,9 @@ h2 {
 	padding: 1em;
 }
 
-.bio-flex-child {
+/*.bio-flex-child {
 
-}
+}*/
 
 #headshot {
 	max-width: 100%;
@@ -78,10 +76,9 @@ h2 {
 }
 
 /*.link-section {
-	border-right: 1px solid black;
-	padding: .5em;
-}*/
-
+	margin-right: -10em;
+}
+*/
 #links-h2 {
 	margin-top: 0px;
 }
@@ -90,6 +87,7 @@ h2 {
 	list-style-type: none;
 	margin: 0;
 	padding-left: 0;
+	font-weight: bold;
 }
 
 .dev-links a {
@@ -105,17 +103,53 @@ h2 {
 
 #projects-section {
 	border-left: 1px solid #aebd38;
-	padding: 0 1em 0 2em;
+	padding: 0 1em 0 3em;
+	margin:0 3em;
 }
 
 .blog-flex {
 	display: flex;
 	display: -webkit-flex;
+	flex-direction: column;
 	justify-content: center;
 	margin-top: 1em;
 	background-color: #aebd38;
 	border-radius: 20px;
+	padding: 1em;
+}
 
+#blog-child {
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.blog-header {
+	text-align: center;
+
+}
+
+.blog-header h2 {
+	margin: 0;
+}
+
+.blog-post {
+	margin-top: 1em;
+
+}
+.blog-post-title {
+	margin: 0;
+}
+
+.blog-post-paragraph {
+	margin: .5em 0;
+}
+
+.blog-post-footer p {
+	margin: .5em 0;
+	font-size: .8em;
+	font-weight: bold;
 }
 
 
@@ -157,6 +191,5 @@ footer {
 .copyright {
 	color: white;
 	font-size: .8em;
-	/*font-weight: bold;*/
 	letter-spacing: 0px;
 }
