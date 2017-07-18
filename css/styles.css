@@ -40,6 +40,10 @@ h2 {
 
 .hero {
 	max-width: 25%;
+	flex-shrink: 0;
+	flex-grow: 2;
+	flex-basis: 1;
+	/*min-width: 200px;*/
 }
 
 .bio-flex {
@@ -47,6 +51,7 @@ h2 {
 	display: -webkit-flex;
 	justify-content: space-between;
 	align-items: flex-start;
+	flex-wrap: wrap;
 	background-color: rgba(174,189,56, .4);
 	border-radius: 20px;
 	padding: 1em;
@@ -63,13 +68,16 @@ h2 {
 
 #bio {
 	padding-left: 1em;
+	max-width: 70%
+	/*flex-grow:0;*/
+	/*flex-basis: 0;*/
 }
 
 
 .bio-flex_2 {
 	display: flex;
 	display: -webkit-flex;
-	/*flex-wrap: wrap;*/
+	flex-wrap: wrap;
 	justify-content: space-around;
 	align-items: flex-start;
 	margin-top: 1em;
@@ -103,8 +111,8 @@ h2 {
 
 #projects-section {
 	border-left: 1px solid #aebd38;
-	padding: 0 1em 0 3em;
-	margin:0 3em;
+	padding: 0 1em 0 4em;
+	margin:0 3em 0 0;
 }
 
 .blog-flex {
@@ -193,3 +201,111 @@ footer {
 	font-size: .8em;
 	letter-spacing: 0px;
 }
+
+/********************************
+	Media Queries
+********************************/
+
+@media screen and (min-width: 750px) {
+   .dev-links a {
+		font-size: 1.4em;
+	}
+
+	#links-h2 {
+		font-size: 1.7em;
+	}	
+
+	#projects-section h4 {
+		font-size: 1.2em;
+	}
+
+	#projects-section h2 {
+		font-size: 1.7em;
+	}
+
+}
+
+@media screen and (min-width: 500px) {
+
+}
+
+@media screen and (max-width: 500px) {
+ 	
+ 	.bio-flex {
+	display: flex;
+	display: -webkit-flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	/*background-color: rgba(174,189,56, .4);*/
+	/*border-radius: 20px;*/
+	/*padding: 1em;*/
+	}
+
+	.hero {
+		display:none;
+	}
+
+	footer {
+		max-height: 65px;
+    }
+
+    footer li {
+    	font-size: .9em; 
+    }
+
+    footer.ul {
+    	/*margin-left: 1em;*/
+    }
+
+    .copyright {
+    	display: none;
+    }
+
+}
+
+@media screen and (max-width: 660px) {
+ 	
+.bio-flex_2 {
+	display: flex;
+	display: -webkit-flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-start;
+	/*margin-top: 1em;*/
+	}
+
+	#projects-section {
+		border: none;
+		margin: 1em auto 0;
+		padding: 0;
+		background-color: rgba(255,255,255, .2);
+		width: 100%;
+		text-align: center;
+		border-radius: 20px;
+
+	}
+
+	.link-section {
+		border:1px solid white;
+		width: 100%;
+		border-radius: 20px;
+		padding: 1em;
+		text-align: center;
+	}
+
+	#bio {
+	/*padding-left: 1em;*/
+	max-width: 90%
+	/*flex-grow:0;*/
+	/*flex-basis: 0;*/
+	}
+
+}
+
+
+
+
+
+
+

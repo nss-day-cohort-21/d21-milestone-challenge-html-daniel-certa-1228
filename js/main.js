@@ -1,4 +1,4 @@
-console.log("Test")
+console.log("main.js")
 
 //array of blog entries
 let blogContent = [
@@ -32,14 +32,13 @@ let blogCopy = blogContent[i].copy;
 let blogPoster = blogContent[i].poster;
 let blogDate = blogContent[i].date;
 let blogTime = blogContent[i].time;
+
 //build our blog entry structure
-// let blogCard;
 let blogCard = `<article class="blog-post"><h3 class="blog-post-title">${blogTitle}</h3>`;
 blogCard += `<p class="blog-post-paragraph">${blogCopy}></p>`;
 blogCard += `<section class="blog-post-footer"><p>Posted by ${blogPoster} on ${blogDate} at ${blogTime}.</p></section>`;
  
- console.log(blogCard)
-
+ // console.log(blogCard)
  let blogHolder = document.getElementById("blog-target");
  blogHolder.innerHTML += blogCard;
 }
