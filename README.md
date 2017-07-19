@@ -33,9 +33,9 @@ Create a page for your own personal branding that can be treated as the beginnin
 
 
 ### Content and Technical Requirements
-1. Title - make it meaningful.
-1. Header element `<h1>` - This is the main headline; include your name and what this page is.
-1. Photo
+1. DONE Title - make it meaningful. 
+1. DONE Header element `<h1>` - This is the main headline; include your name and what this page is.
+1. DONE Photo
 1. Section element containing your bio
 1. Section element with links to resources or sites you like
 1. Section element with two sections for future projects (placeholders)
@@ -56,3 +56,4 @@ Create a page for your own personal branding that can be treated as the beginnin
 * Explore and create color combinations: https://color.adobe.com
 * Material Color: https://material.io/guidelines/style/color.html#color-color-system 
     - Material color tool - https://material.io/color/#!/?view.left=0&view.right=0
+# HTML-CSS-Milestone-Challenge
